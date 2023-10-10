@@ -6,9 +6,9 @@ describe("GenericList: Component", ()=> {
 
   it("should render", ()=>{
 
-    const {debug}= render(<GenericList />)
+    const {getByText}= render(<GenericList />)
  
-    debug()
+    expect(getByText('build me')).not.toBeNull();
   });
 
 })
