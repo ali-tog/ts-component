@@ -1,14 +1,16 @@
-// const nameDataList = [
-//     { id: "1", name: "ali" },
-//     { id: "2", name: "jeff" },
-//     { id: "3", name: "barry" },
-//     { id: "1", lastName: "ton" },
-//     { id: "2", lastName: "jim" },
-//     { id: "3", lastName: "larry" },
-//   ];
-const  run = (function () {
-    console.log("hello");
-})();
+const nameDataList = [
+    {  name: "ali" },
+    {  name: "jeff" },
+    {  name: "barry" },
+    {  lastName: "tom" },
+    {  lastName: "jim" },
+    {  lastName: "larry" },
+  ];
+
+const  run = (function (prop) {
+    console.log(prop);
+})(nameDataList);
+
 // output
 // {
 //    lastname: ["ton", "fim"...]

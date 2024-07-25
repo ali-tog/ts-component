@@ -12,7 +12,7 @@ const nameDataList: Array<Data & { name: string }> = [
 ];
 
 const lastNameDataList: Array<Data & { lastName: string }> = [
-  { id: "1", lastName: "ton" },
+  { id: "1", lastName: "tom" },
   { id: "2", lastName: "jim" },
   { id: "3", lastName: "larry" },
 ];
