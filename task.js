@@ -1,18 +1,19 @@
-const nameDataList = [
-    {  name: "ali" },
-    {  name: "jeff" },
-    {  name: "barry" },
-    {  lastName: "tom" },
-    {  lastName: "jim" },
-    {  lastName: "larry" },
+const pets = [
+    {  cat: "ali" },
+    {  cat: "jeff" },
+    {  cat: "mike" },
+    {  dog: "tom" },
+    {  dog: "jim" },
+    {  dog: "larry" },
   ];
 
-const  run = (function (prop) {
+((prop) => {
+    
     console.log(prop);
-})(nameDataList);
+})(pets);
 
 // output
 // {
-//    lastname: ["ton", "fim"...]
-//.   name: ["ali", ...]
+//    dog: ["ton", "fim"...]
+//.   cat: ["ali", ...]
 // }
