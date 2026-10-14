@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { GenericList } from "./GenericList";
+
 import "./index.css";
 
 type Data = { id: string };
@@ -18,6 +18,8 @@ const lastNameDataList: Array<Data & { lastName: string }> = [
 ];
 
 const Label = ({ label }: { label: string }) => <p>{label}</p>;
+
+export const GenericList = () => <section>build me</section>;
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

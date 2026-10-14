@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react";
-import { GenericList } from "./GenericList";
+import { GenericList } from "./main";
+
 
 
 describe("GenericList: Component", ()=> {
